@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+/* Banner Section Style  */
 .banner-section {
     width: 1221px;
     height: 646px;
@@ -58,4 +59,40 @@ body {
 .banner-image img {
     width: 581px;
     height: 613px;
+}
+
+/* Blog Section Style  */
+.fixt-item {
+    width: 321px;
+    height: 321px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: #161616;
+    display: grid;
+    grid-template-columns: repeat(1, 1rf);
+    justify-content: center;
+    align-items: center;
+}
+
+.matches-btn {
+    padding: 20px 50px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.group-btn {
+    padding: 20px 80px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.blog-btn {
+    padding: 20px 105px;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #DD0000;
+    color: #ffffff;
 }
