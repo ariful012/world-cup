@@ -72,6 +72,7 @@ body {
 .blog-secton {
     display: flex;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .fixt-item {
@@ -152,4 +153,41 @@ body {
     justify-content: space-around;
     color: gray;
     margin-bottom: 20px;
+}
+
+/* Footer style start  */
+
+.footer {
+    background-color: #161616;
+    padding: 100px 0 100px 0;
+}
+
+.goal {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff
+}
+
+hr {
+    width: 85%;
+
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-evenly;
+    color: #B9B9B9;
+    margin-top: 35px;
+}
+
+.social-icon {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.fa-facebook,
+.fa-linkedin,
+.fa-twitter {
+    padding: 20px;
 }
