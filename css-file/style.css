@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner-section {
+    width: 1221px;
+    height: 646px;
+    margin: 50px;
+    border-radius: 30px;
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-title {
+    width: 531px;
+    height: 424px;
+}
+
+.banner-title h1 {
+    font-weight: 700;
+    font-size: 70px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.banner-title p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.watch-btn {
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border-style: none;
+    margin-top: 20px;
+    color: #fff;
+    box-shadow: inset 0 0 0 0 #2095b9;
+    transition: ease-out 0.3s;
+    outline: none;
+}
+
+.watch-btn:hover {
+    box-shadow: inset 300px 0 0 0 #2095b9;
+    cursor: pointer;
+    color: #161616;
+}
+
+.banner-image img {
+    width: 581px;
+    height: 613px;
+}
