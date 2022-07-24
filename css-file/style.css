@@ -86,8 +86,22 @@ body {
     margin-right: 34px;
 }
 
-#btn1 {
+#btn-common1 {
     margin-top: 25px;
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+#btn-common2 {
+    margin-top: 25px;
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+#btn-common3 {
+    margin-top: 25px;
+    background-color: #DD0000;
+    color: #ffffff;
 }
 
 .btn {
@@ -99,9 +113,9 @@ body {
     font-size: 20px;
 }
 
-.btn:hover {
+/* .btn:hover {
     background-color: #DD0000;
-}
+} */
 
 .blog-items {
     display: grid;
@@ -162,6 +176,25 @@ a {
     display: none;
 }
 
+.flag {
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+}
+
+.flag h2 {
+    padding: 5px;
+}
+
+.blog h3,
+p {
+    text-align: center;
+
+}
+
+.blog p {
+    margin-bottom: 10px;
+}
 
 /* Footer style start  */
 
